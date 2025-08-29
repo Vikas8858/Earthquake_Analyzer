@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import { fetchEarthquakes } from './services/usgs'
-import EarthquakeMap from './components/EarthquakeMap'
-import FilterBar from './components/FilterBar'
-import EarthquakeList from './components/EarthquakeList'
+import { fetchEarthquakes } from './Services/usgs'
+import EarthquakeMap from './Components/EarthquakeMap'
+import FilterBar from './Components/FilterBar'
+import EarthquakeList from './Components/EarthquakeList'
 
 export default function App() {
   const [allQuakes, setAllQuakes] = useState([])
